@@ -24,7 +24,11 @@ Write your order here:
 
 ## Step 2: Build it in pieces 🧩
 
-**File > Load Python from your computer**, then choose `code/mission-8.py`.
+1. Open [mission-8.py](code/mission-8.py).
+2. Tap the **download** button (the arrow pointing down, near the top right of the code), then **Download**.
+3. In GearsBot, tap **File > Load Python from your computer**.
+4. Find **mission-8.py** (it's in **Downloads**) and tap it.
+5. Tap the **Python** tab to see the code.
 
 There's one empty block for each mission:
 
@@ -41,7 +45,7 @@ The timer stops the robot after 2 minutes. Score the run with the [scoring sheet
 
 ## Step 4: Level up 🔀
 
-When you're ready, load `robot-rockstars-random-notes.json` instead. Now four notes are shuffled each time, so your robot must use `front_sensor.color()` to find out which note is which.
+When you're ready, go to the [start page](../README.md) and tap **🔀 Open the field with shuffled notes**. Now four notes are shuffled each time, so your robot must use `front_sensor.color()` to find out which note is which.
 
 ---
 

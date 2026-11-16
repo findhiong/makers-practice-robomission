@@ -8,7 +8,11 @@
 
 ## Step 1: Load the code 📂
 
-**File > Load Python from your computer**, then choose `code/mission-6.py`.
+1. Open [mission-6.py](code/mission-6.py).
+2. Tap the **download** button (the arrow pointing down, near the top right of the code), then **Download**.
+3. In GearsBot, tap **File > Load Python from your computer**.
+4. Find **mission-6.py** (it's in **Downloads**) and tap it.
+5. Tap the **Python** tab to see the code.
 
 Check `LEFT` is the same as you set it in Mission 5.
 

@@ -29,7 +29,13 @@ Draw the robot's route on paper. For each step, write:
 
 ## Step 2: Turn your plan into code 💻
 
-**File > Load Python from your computer**, then choose `code/mission-7.py`. Check `LEFT` again.
+1. Open [mission-7.py](code/mission-7.py).
+2. Tap the **download** button (the arrow pointing down, near the top right of the code), then **Download**.
+3. In GearsBot, tap **File > Load Python from your computer**.
+4. Find **mission-7.py** (it's in **Downloads**) and tap it.
+5. Tap the **Python** tab to see the code.
+
+Check `LEFT` is the same as you set it in Mission 5.
 
 At the bottom, write one line of code for each step on your paper. You already know these blocks:
 

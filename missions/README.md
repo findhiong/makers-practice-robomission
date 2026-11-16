@@ -15,13 +15,11 @@ Do the missions in order. Each one teaches **one new thing**.
 
 ## Every session
 
-1. Open GearsBot.
-2. **Worlds > Load from file** and choose `robot-rockstars-malaysia.json`.
-3. **Robot > Select Robot** and choose **Cage Bot**.
-4. In the **Python** tab menu, choose **Pybricks Mode**.
-5. Type the mission name in the **Project Name** box, for example `mission1`.
-6. Open your mission card and go!
-7. At the end: **File > Save Python to your computer**.
+1. Go to the [start page](../README.md) and tap **▶️ Tap here to open the Robot Rockstars field**.
+2. In the row at the top (**File, Python, Robot, Worlds, Help**), tap **Python**, then **Pybricks Mode**.
+3. Type the mission name in the **Project Name** box, for example `mission1`.
+4. Open your mission card and go!
+5. At the end: **File > Save Python to your computer > Download**.
 
 ## Team rules
 

@@ -1,29 +1,90 @@
-# RoboMission practice: Robot Rockstars 2026
+# 🤖 Robot Rockstars: learn Python with a robot
 
-A practice field for learning Python on a simulated robot before the next RoboMission season. It recreates the 2026 Rookie Primary field ("Robot Rockstars") in [GearsBot](https://gears.aposteriori.com.sg), a free robot simulator that runs in the browser.
+Practise for RoboMission on an iPad or computer. No robot needed, no sign-up, nothing to install.
+
+## 👉 Start here
+
+### 1. Open the practice field
+
+**[▶️ Tap here to open the Robot Rockstars field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)**
+
+This opens GearsBot with the field and the robot already loaded. It takes a few seconds.
+
+> 💡 **Tip:** Save this link so you can find it again. On an iPad, tap the **Share** button in Safari, then **Add to Home Screen**.
+
+### 2. Switch on Python (do this every time)
+
+At the top of GearsBot there's a row of words: **File, Python, Robot, Worlds, Help**.
+
+1. Tap **Python** in that row.
+2. Tap **Pybricks Mode**.
+
+### 3. Name your work
+
+At the very top there's a box that says **Project Name**. Type the mission you're doing, for example `mission1`.
+
+### 4. Pick your mission
+
+**[📋 Open the mission cards](missions/README.md)** and start with Mission 1.
+
+### 5. Save before you finish
+
+Tap **File**, then **Save Python to your computer**, then **Download**.
+
+---
+
+## 🧭 Finding your way around GearsBot
+
+| What you want | Where it is |
+|---|---|
+| Build with blocks | The **Blocks** tab (top left) |
+| See and change the Python | The **Python** tab (top left) |
+| Watch the robot | The **Simulator** tab (top left) |
+| Start the robot | ▶️ in the **Simulator** |
+| Put the robot back at the start | The **reset** button (curly arrow) in the **Simulator** |
+| See messages from `print` | The message box at the bottom of the **Simulator** (tap the little arrow) |
+| Open a saved program | **File > Load Python from your computer** |
+
+## 🗺️ The field map
+
+The map shows where everything is, in centimetres. Keep it open while you plan.
 
 ![Field map](images/field-map.jpg)
 
+## ⭐ Ready for a challenge?
+
+**[🔀 Open the field with shuffled notes](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-random-notes.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)**
+
+Four of the notes swap places every time, so your robot has to check colours to find the right one.
+
+---
+
+# For grown-ups
+
+## Sharing with other kids
+
+Just share the link to this page. Everything works from a web browser: the field, robot and missions all load from here, and children don't need a GitHub or GearsBot account.
+
+Work is kept in the browser between sessions on the same device, but only the latest program. Saving with **File > Save Python to your computer** keeps each mission. Clearing Safari's history or using a private tab wipes unsaved work.
+
+## If the "Tap here" link doesn't work
+
+You can load everything by hand in GearsBot (**https://gears.aposteriori.com.sg**):
+
+1. On this page, open `worlds/robot-rockstars-malaysia.json` and tap the **download** button (the arrow pointing down, top right of the file).
+2. In GearsBot, tap **Worlds > Load from file** and choose the downloaded file.
+3. Tap **Robot > Select Robot**, choose **Cage Bot**, then **Ok**.
+4. Tap **Python > Pybricks Mode**.
+
 ## What's in here
 
-| File | What it is |
-|------|------------|
-| `worlds/robot-rockstars-malaysia.json` | The field with every object placed as in the Malaysian Rookie Primary rules (notes always blue, white, red, green, black, yellow). Start here. |
-| `worlds/robot-rockstars-random-notes.json` | Harder: blue, white, black and yellow notes are shuffled each time, as in the international WRO version. The robot has to check colours. |
-| `missions/` | **Start here:** eight mission cards for the kids, from "drive straight" to a full 2-minute run, plus a scoring sheet. Missions 1 to 4 use Blocks, 5 to 8 use Python. |
-| `images/field-map.jpg` | The mat with a centimetre grid and every object labelled. Print it or keep it open. |
-
-Both worlds have a 2-minute countdown that stops the robot, like competition day.
-
-## Setting up GearsBot (once)
-
-1. Open **https://gears.aposteriori.com.sg** in Chrome or Edge on a laptop.
-2. **Load the world.** Download `worlds/robot-rockstars-malaysia.json` from this page (open the file, then the download button). In GearsBot, open **Worlds > Load from file** and choose it.
-3. **Choose the robot.** Open **Robot > Select Robot** and pick **Cage Bot**.
-4. **Switch to Python.** Open the **Python** tab, then its menu, and choose **Pybricks Mode**.
-5. Open the [missions](missions/README.md) page and start with Mission 1.
-
-Reloading GearsBot resets it, so do steps 2 to 4 again each time. To keep a program, use **File > Save Python to your computer**.
+| Folder | What it is |
+|---|---|
+| `missions/` | Eight mission cards, from "drive straight" to a full 2-minute run, plus a scoring sheet. Missions 1 to 4 use Blocks, 5 to 8 use Python. |
+| `missions/code/` | Starter Python for missions 5 to 8. |
+| `worlds/` | The field: Malaysian Rookie Primary layout (fixed notes) and a shuffled-notes version. Both have a 2-minute timer. |
+| `robots/` | The Cage Bot robot. |
+| `images/` | The mat and the labelled field map. |
 
 ## The robot (Cage Bot)
 

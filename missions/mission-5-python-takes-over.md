@@ -8,9 +8,11 @@
 
 ## Step 1: Load the code 📂
 
-1. In GearsBot: **File > Load Python from your computer**.
-2. Open the **code** folder and choose `mission-5.py`.
-3. Go to the **Python** tab and have a look.
+1. Open [mission-5.py](code/mission-5.py).
+2. Tap the **download** button (the arrow pointing down, near the top right of the code), then **Download**.
+3. In GearsBot, tap **File > Load Python from your computer**.
+4. Find **mission-5.py** (it's in **Downloads**) and tap it.
+5. Tap the **Python** tab to see the code.
 
 ## Step 2: Read the code like a map 🔍
 
