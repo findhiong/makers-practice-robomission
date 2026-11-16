@@ -10,7 +10,7 @@ A practice field for learning Python on a simulated robot before the next RoboMi
 |------|------------|
 | `worlds/robot-rockstars-malaysia.json` | The field with every object placed as in the Malaysian Rookie Primary rules (notes always blue, white, red, green, black, yellow). Start here. |
 | `worlds/robot-rockstars-random-notes.json` | Harder: blue, white, black and yellow notes are shuffled each time, as in the international WRO version. The robot has to check colours. |
-| `missions/` | Eight missions with starter code, from "drive straight" to a full 2-minute run, plus a scoring sheet. |
+| `missions/` | **Start here:** eight mission cards for the kids, from "drive straight" to a full 2-minute run, plus a scoring sheet. Missions 1 to 4 use Blocks, 5 to 8 use Python. |
 | `images/field-map.jpg` | The mat with a centimetre grid and every object labelled. Print it or keep it open. |
 
 Both worlds have a 2-minute countdown that stops the robot, like competition day.
@@ -21,7 +21,7 @@ Both worlds have a 2-minute countdown that stops the robot, like competition day
 2. **Load the world.** Download `worlds/robot-rockstars-malaysia.json` from this page (open the file, then the download button). In GearsBot, open **Worlds > Load from file** and choose it.
 3. **Choose the robot.** Open **Robot > Select Robot** and pick **Cage Bot**.
 4. **Switch to Python.** Open the **Python** tab, then its menu, and choose **Pybricks Mode**.
-5. Open `missions/01_clean_start.py` here, copy all of it, paste it into the Python tab (replacing what's there), and press play in the **Simulator** tab. (Or download the file and use **File > Load Python from your computer**.)
+5. Open the [missions](missions/README.md) page and start with Mission 1.
 
 Reloading GearsBot resets it, so do steps 2 to 4 again each time. To keep a program, use **File > Save Python to your computer**.
 
