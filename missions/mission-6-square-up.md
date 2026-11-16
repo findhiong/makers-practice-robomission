@@ -46,8 +46,8 @@ Tap the **Simulator** tab and press ▶️. Then open the **message box** at the
 |---|---|---|---|---|
 | how **crooked** it starts | `turn_to(8)` and `drive_cm(10, 8)` | `turn_to(-8)` and `drive_cm(10, -8)` | | |
 | how **crooked** it starts | `8` (both places) | `20` | | |
-| the **speed** of the first square-up | `square_up(150)` | `square_up(400)` | | |
-| take away the **second** square-up | `square_up(60)` | `# square_up(60)` | | |
+| the **speed** of the square-up | `square_up(80)` | `square_up(400)` | | |
+| the **speed** of the square-up | `square_up(80)` | `square_up(30)` | | |
 
 ---
 
@@ -57,7 +57,7 @@ Using **only the Python tab**, you can add a square-up to your **Mission 5** cod
 
 ## 📓 Notebook
 
-- Why do we square up twice, once fast and once slowly?
+- Was it more accurate fast or slow? Why do you think that is?
 - Where on the real competition field could you square up?
 
 ## 💾 Save your work

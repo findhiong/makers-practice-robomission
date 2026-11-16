@@ -92,8 +92,6 @@ turn_to(8)
 drive_cm(10, 8)
 print("Crooked:", gyro.angle())
 
-# Square up: once fast, back off a little, then once more slowly
-square_up(150)
-robot.straight(-40)
-square_up(60)
+# Square up on the black line
+square_up(80)
 print("Square:", gyro.angle())
