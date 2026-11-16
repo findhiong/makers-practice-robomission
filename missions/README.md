@@ -9,17 +9,19 @@ Do the missions in order. Each one teaches **one new thing**.
 | [3. Drive to Yellow](mission-3-drive-to-yellow.md) | Stop on the yellow square | 🧱 Blocks |
 | [4. Stop at the Black Line](mission-4-stop-at-black.md) | Use a sensor to know when to stop | 🧱 Blocks |
 | [5. Python Takes Over](mission-5-python-takes-over.md) | Drive to yellow using real Python | 🐍 Python |
-| [6. Follow the Line](mission-6-follow-the-line.md) | Follow a black line without losing it | 🐍 Python |
+| [6. Square Up on a Line](mission-6-square-up.md) | Use a line to make the robot perfectly straight | 🐍 Python |
 | [7. Deliver a Note](mission-7-deliver-a-note.md) | Bring the red note to its target | 🐍 Python |
 | [8. The Full Run](mission-8-full-run.md) | Score as many points as you can in 2 minutes | 🐍 Python |
 
-## Every session
+## How missions work
 
-1. Go to the [start page](../README.md) and tap **▶️ Tap here to open the Robot Rockstars field**.
-2. In the row at the top (**File, Python, Robot, Worlds, Help**), tap **Python**, then **Pybricks Mode**.
-3. Type the mission name in the **Project Name** box, for example `mission1`.
-4. Open your mission card and go!
-5. At the end: **File > Save Python to your computer > Download**.
+Every mission card tells you exactly what to do, step by step:
+
+1. **Before you start:** open the field, switch on Pybricks, and name your work.
+2. **Build it** in Blocks (Missions 1 to 4) or **load the code** (Missions 5 to 8).
+3. **Change it in Python:** guess first, then try it.
+4. **You've finished when...** a challenge to prove you've got it.
+5. **Save your work.**
 
 ## Team rules
 

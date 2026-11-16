@@ -6,56 +6,46 @@ Practise for RoboMission on an iPad or computer. No robot needed, no sign-up, no
 
 ### 1. Open the practice field
 
-**[▶️ Tap here to open the Robot Rockstars field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)**
+**[▶️ Open the Robot Rockstars field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)**
 
-This opens GearsBot with the field and the robot already loaded. It takes a few seconds.
+👆 **Press and hold** the link, then tap **Open in New Tab**, so you can keep these instructions open too.
 
-> 💡 **Tip:** Save this link so you can find it again. On an iPad, tap the **Share** button in Safari, then **Add to Home Screen**.
+The field and robot load by themselves. If a **What's New** box pops up, tap **OK**.
 
-### 2. Switch on Python (do this every time)
+### 2. Get to know GearsBot
 
-At the top of GearsBot there's a row of words: **File, Python, Robot, Worlds, Help**.
+![GearsBot tabs and menu](images/guide/1-tabs-and-menu.png)
 
-1. Tap **Python** in that row.
+GearsBot has **three tabs** on the left. Tap one to swap screens:
+
+| Tab | What it's for |
+|---|---|
+| **Blocks** | Build your program by dragging blocks, like you did at competition. |
+| **Python** | See your program written in Python, and change it. |
+| **Simulator** | See the field and the robot. Press ▶️ to start, and the curly arrow to put the robot back. |
+
+Next to the tabs is a **menu row**: File, Python, Robot, Worlds, Help.
+
+### 3. Switch on Pybricks (do this every time)
+
+⚠️ There are **two** things called "Python". You need the one in the **menu row**, not the tab.
+
+![Tap Python in the menu row, then Pybricks Mode](images/guide/2-pybricks-mode.png)
+
+1. Tap **Python** in the **menu row** (between File and Robot).
 2. Tap **Pybricks Mode**.
 
-### 3. Name your work
+### 4. Do a mission
 
-At the very top there's a box that says **Project Name**. Type the mission you're doing, for example `mission1`.
+There are **8 missions**. They start easy (make the robot drive straight) and build up to a full 2-minute competition run. Missions 1 to 4 use **Blocks**, then Missions 5 to 8 use **Python**.
 
-### 4. Pick your mission
-
-**[📋 Open the mission cards](missions/README.md)** and start with Mission 1.
-
-### 5. Save before you finish
-
-Tap **File**, then **Save Python to your computer**, then **Download**.
-
----
-
-## 🧭 Finding your way around GearsBot
-
-| What you want | Where it is |
-|---|---|
-| Build with blocks | The **Blocks** tab (top left) |
-| See and change the Python | The **Python** tab (top left) |
-| Watch the robot | The **Simulator** tab (top left) |
-| Start the robot | ▶️ in the **Simulator** |
-| Put the robot back at the start | The **reset** button (curly arrow) in the **Simulator** |
-| See messages from `print` | The message box at the bottom of the **Simulator** (tap the little arrow) |
-| Open a saved program | **File > Load Python from your computer** |
+**[📋 Open the missions](missions/README.md)** and start with Mission 1. Each mission tells you how to name and save your work.
 
 ## 🗺️ The field map
 
 The map shows where everything is, in centimetres. Keep it open while you plan.
 
 ![Field map](images/field-map.jpg)
-
-## ⭐ Ready for a challenge?
-
-**[🔀 Open the field with shuffled notes](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-random-notes.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)**
-
-Four of the notes swap places every time, so your robot has to check colours to find the right one.
 
 ---
 

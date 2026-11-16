@@ -6,6 +6,12 @@
 
 ---
 
+## Before you start 🏁
+
+1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
+2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
+3. In the **Project Name** box at the very top, type `mission5`.
+
 ## Step 1: Load the code 📂
 
 1. Open [mission-5.py](code/mission-5.py).
@@ -44,7 +50,9 @@ All your changes are in the **Python** tab now. One change at a time, and change
 
 The line `drive_cm(110, LEFT)` means: **drive 110 cm, facing LEFT**.
 
-| In the Python tab, change... | From | To | Your guess | What happened |
+> ✏️ **Guess first!** Before you press ▶️, write what you think will happen in the **We think...** column. For example: *"It will go twice as far."* Then press ▶️ and write what really happened.
+
+| In the Python tab, change... | From | To | We think it will... | What happened |
 |---|---|---|---|---|
 | the **speed** of the drive | `drive_cm(110, LEFT)` | `drive_cm(110, LEFT, speed=500)` | | |
 | how hard it **steers** back on course | `STEER_STRENGTH = 3` | `STEER_STRENGTH = 0` | | |
@@ -63,3 +71,9 @@ The robot stops on yellow 3 times in a row, **and** you can explain what `drive_
 
 - Which was more accurate: your blocks in Mission 3, or this?
 - What does the `# ` at the start of a line do? (Try adding one before a line and pressing ▶️.)
+
+## 💾 Save your work
+
+1. In the **menu row**, tap **File**.
+2. Tap **Save Python to your computer**, then **Download**.
+3. Your work is saved as `mission5.zip`. To open it next time: **File > Load Python from your computer**.

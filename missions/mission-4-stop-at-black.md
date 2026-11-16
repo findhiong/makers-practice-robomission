@@ -6,6 +6,12 @@
 
 ---
 
+## Before you start 🏁
+
+1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
+2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
+3. In the **Project Name** box at the very top, type `mission4`.
+
 ## Step 1: Look at the map 🗺️
 
 On the [field map](../images/field-map.jpg), find the long white stripes with a black line, just above the start (around y = 30 cm). That's where the robot is heading.
@@ -13,16 +19,15 @@ On the [field map](../images/field-map.jpg), find the long white stripes with a 
 ## Step 2: Build it in Blocks 🧱
 
 1. `sleep for 1 seconds`
-2. `reset gyro on port 5`
-3. From **Motion**: `move steering with direction 0 and speed 20 %`
+2. From **Motion**: `move steering with direction 0 and speed 20 %`
    Use the one **without** "for". It starts the motors and keeps them going.
-4. From **Control**: `Wait until`. Inside it, build this check:
+3. From **Control**: `Wait until`. Inside it, build this check:
    - From **Logic**: the compare block `[ ] = [ ]`
    - On the left, from **Sensors**: `color sensor` set to **color**, on port **1**
    - On the right, from **Sensors**: the colour block set to **BLACK**
-5. From **Motion**: `stop moving`
+4. From **Motion**: `stop moving`
 
-Press ▶️. Does it stop on the black line?
+Run it. Does it stop on the black line?
 
 > 💡 **Stuck?** If your robot is facing the wrong way, add your quarter turn from Mission 2 first.
 
@@ -35,7 +40,9 @@ In the **Python** tab, find these lines:
 - `move_steering(0, (20 / 100) * 1050)` starts driving. The `20` is the **speed**.
 - The `while not` line is your **Wait until**. It keeps checking the sensor until it sees `Color.BLACK`.
 
-| In the Python tab, change... | From | To | Your guess | What happened |
+> ✏️ **Guess first!** Before you press ▶️, write what you think will happen in the **We think...** column. For example: *"It will go twice as far."* Then press ▶️ and write what really happened.
+
+| In the Python tab, change... | From | To | We think it will... | What happened |
 |---|---|---|---|---|
 | the **speed** | `20` | `80` | | |
 | the **colour** | `BLACK` | `WHITE` | | |
@@ -47,9 +54,17 @@ In the **Python** tab, find these lines:
 
 ## ✅ You've finished when...
 
-The robot stops with its sensor on the black line, every time.
+Using **only the Python tab**, you can make the robot stop on **white** instead, then **beep**.
+
+> 💡 Hint: the Python for a beep is `ev3.speaker.beep()`
 
 ## 📓 Notebook
 
 - What happened at high speed? Why do you think that is?
 - Where else on the field could a black line help your robot find its way?
+
+## 💾 Save your work
+
+1. In the **menu row**, tap **File**.
+2. Tap **Save Python to your computer**, then **Download**.
+3. Your work is saved as `mission4.zip`. To open it next time: **File > Load Python from your computer**.

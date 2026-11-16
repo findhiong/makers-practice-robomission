@@ -29,6 +29,11 @@ RIGHT = -LEFT
 UP = 0          # the way the robot faces at the start
 DOWN = 180
 
+def stop():
+    # Brake hard so the robot doesn't roll on
+    left_wheel.brake()
+    right_wheel.brake()
+
 def clean_start():
     # Hands off, wait, then set the compass to zero
     wait(1000)
@@ -44,7 +49,7 @@ def turn_to(heading):
         else:
             robot.drive(0, -spin)
         wait(10)
-    robot.stop()
+    stop()
 
 STEER_STRENGTH = 3   # how hard the robot steers back on course
 
@@ -56,39 +61,39 @@ def drive_cm(cm, heading, speed=200):
         error = heading - gyro.angle()
         robot.drive(speed * direction, error * STEER_STRENGTH)
         wait(10)
-    robot.stop()
+    stop()
 
 
 # ============================================================
 #  OUR CODE STARTS HERE
 # ============================================================
 
-# Measure these first! (see the mission card)
-BLACK = 10
-WHITE = 90
-MIDDLE = (BLACK + WHITE) / 2
-FOLLOW_STRENGTH = 1.5
+BLACK_LINE = 35     # below this number, the sensor is on black
 
-def follow_line(cm, speed=120):
-    # Follow the EDGE of a black line with floor_sensor
-    robot.reset()
-    while robot.distance() < cm * 10:
-        error = floor_sensor.reflection() - MIDDLE
-        robot.drive(speed, error * FOLLOW_STRENGTH)
-        wait(10)
-    robot.stop()
-
-def drive_until_black(heading, speed=120):
-    # Drive straight until floor_sensor sees black
-    while floor_sensor.reflection() > MIDDLE:
-        error = heading - gyro.angle()
-        robot.drive(speed, error * STEER_STRENGTH)
-        wait(10)
-    robot.stop()
+def square_up(speed):
+    # Drive both wheels forwards. Each wheel stops when ITS sensor touches black.
+    left_done = False
+    right_done = False
+    left_wheel.run(speed)
+    right_wheel.run(speed)
+    while not (left_done and right_done):
+        if floor_sensor.reflection() < BLACK_LINE:
+            left_wheel.brake()
+            left_done = True
+        if floor_sensor_2.reflection() < BLACK_LINE:
+            right_wheel.brake()
+            right_done = True
+        wait(5)
 
 clean_start()
-print("I see:", floor_sensor.reflection())
 
-drive_until_black(UP)
-turn_to(LEFT)
-follow_line(80)
+# Make the robot crooked on purpose (try changing 8!)
+turn_to(8)
+drive_cm(10, 8)
+print("Crooked:", gyro.angle())
+
+# Square up: once fast, back off a little, then once more slowly
+square_up(150)
+robot.straight(-40)
+square_up(60)
+print("Square:", gyro.angle())

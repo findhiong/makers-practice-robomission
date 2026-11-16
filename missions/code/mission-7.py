@@ -29,6 +29,11 @@ RIGHT = -LEFT
 UP = 0          # the way the robot faces at the start
 DOWN = 180
 
+def stop():
+    # Brake hard so the robot doesn't roll on
+    left_wheel.brake()
+    right_wheel.brake()
+
 def clean_start():
     # Hands off, wait, then set the compass to zero
     wait(1000)
@@ -44,7 +49,7 @@ def turn_to(heading):
         else:
             robot.drive(0, -spin)
         wait(10)
-    robot.stop()
+    stop()
 
 STEER_STRENGTH = 3   # how hard the robot steers back on course
 
@@ -56,7 +61,7 @@ def drive_cm(cm, heading, speed=200):
         error = heading - gyro.angle()
         robot.drive(speed * direction, error * STEER_STRENGTH)
         wait(10)
-    robot.stop()
+    stop()
 
 
 # ============================================================

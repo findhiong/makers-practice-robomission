@@ -6,6 +6,12 @@
 
 ---
 
+## Before you start 🏁
+
+1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
+2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
+3. In the **Project Name** box at the very top, type `mission8`.
+
 ## Step 1: Pick your missions 🎯
 
 You probably can't do everything in 2 minutes. Look at the [scoring sheet](scoring-sheet.md) and decide together:
@@ -45,7 +51,7 @@ The timer stops the robot after 2 minutes. Score the run with the [scoring sheet
 
 ## Step 4: Level up 🔀
 
-When you're ready, go to the [start page](../README.md) and tap **🔀 Open the field with shuffled notes**. Now four notes are shuffled each time, so your robot must use `front_sensor.color()` to find out which note is which.
+Only try this once you've finished Missions 1 to 7! **[🔀 Open the field with shuffled notes](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-random-notes.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**). Now four notes are shuffled each time, so your robot must use `front_sensor.color()` to find out which note is which.
 
 ---
 
@@ -58,3 +64,9 @@ You've beaten your best score 3 times. Keep a record:
 | | | | |
 | | | | |
 | | | | |
+
+## 💾 Save your work
+
+1. In the **menu row**, tap **File**.
+2. Tap **Save Python to your computer**, then **Download**.
+3. Your work is saved as `mission8.zip`. To open it next time: **File > Load Python from your computer**.

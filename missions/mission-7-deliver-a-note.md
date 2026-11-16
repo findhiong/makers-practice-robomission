@@ -8,6 +8,12 @@
 
 ---
 
+## Before you start 🏁
+
+1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
+2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
+3. In the **Project Name** box at the very top, type `mission7`.
+
 ## Step 1: Plan on paper first ✏️
 
 Use the [field map](../images/field-map.jpg).
@@ -66,3 +72,9 @@ The red note scores 20 points: upright and completely inside its grey border.
 
 - Which step was hardest to get right? How did you fix it?
 - Could you deliver the green note too, in the same run?
+
+## 💾 Save your work
+
+1. In the **menu row**, tap **File**.
+2. Tap **Save Python to your computer**, then **Download**.
+3. Your work is saved as `mission7.zip`. To open it next time: **File > Load Python from your computer**.

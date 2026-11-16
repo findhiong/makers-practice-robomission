@@ -6,16 +6,28 @@
 
 ---
 
+## Before you start 🏁
+
+1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
+2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
+3. In the **Project Name** box at the very top, type `mission2`.
+
+## How to run the robot ▶️
+
+1. Tap the **Simulator** tab.
+2. Tap ▶️ to start.
+3. To try again, tap the **curly arrow** to put the robot back at the start, then ▶️.
+
 ## Step 1: Build it in Blocks 🧱
 
-Start with your blocks from Mission 1 (sleep, then reset gyro). Then add:
+Start with a `sleep for 1 seconds` block. Then add:
 
 1. From **Motion**: `move steering with direction 100 and speed 30 % for 1 rotations`
    Direction 100 makes the robot spin on the spot.
 2. From **Text**: a `print` block.
 3. From **Sensors**: put a `gyro angle on port 5` block inside the print block.
 
-Press ▶️. Then open the **message box** at the bottom of the Simulator (tap the little arrow). The gyro's number is there.
+Run it. Then open the **message box** at the bottom of the Simulator (tap the little arrow). The gyro's number is there.
 
 ## Step 2: Make it exactly 90 🎯 (in Blocks)
 
@@ -49,7 +61,9 @@ print(gyro_sensor_in5.angle())
 
 (Your numbers may be a little different.) The first number is the **direction**, the second is the **speed**, the last is the **distance** in rotations.
 
-| In the Python tab, change... | From | To | Your guess | What happened |
+> ✏️ **Guess first!** Before you press ▶️, write what you think will happen in the **We think...** column. For example: *"It will go twice as far."* Then press ▶️ and write what really happened.
+
+| In the Python tab, change... | From | To | We think it will... | What happened |
 |---|---|---|---|---|
 | the **speed** | `30` | `100` | | |
 | the **direction** | `-100` | `-50` | | |
@@ -59,9 +73,15 @@ print(gyro_sensor_in5.angle())
 
 ## ✅ You've finished when...
 
-The robot turns a quarter turn and the gyro says 90 (or -90) at the end, 3 times in a row.
+Using **only the Python tab**, you can make the robot turn a quarter turn to the **left**, and the gyro says about **-90** (anything from -88 to -92).
 
 ## 📓 Notebook
 
 - How many rotations made a perfect quarter turn?
 - Try 4 quarter turns in a row. Does the robot end up facing exactly where it started?
+
+## 💾 Save your work
+
+1. In the **menu row**, tap **File**.
+2. Tap **Save Python to your computer**, then **Download**.
+3. Your work is saved as `mission2.zip`. To open it next time: **File > Load Python from your computer**.
