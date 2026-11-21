@@ -13,10 +13,11 @@
 1. **[Open the field](https://gears.aposteriori.com.sg/index.html?worldJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Fworlds%2Frobot-rockstars-malaysia.json&robotJSON=https%3A%2F%2Fraw.githubusercontent.com%2Ffindhiong%2Fmakers-practice-robomission%2Fmain%2Frobots%2Fcage-bot.json)** (press and hold, then **Open in New Tab**).
 2. In the **menu row**, tap **Python**, then **Pybricks Mode**. ([Not sure where?](../README.md#3-switch-on-pybricks-do-this-every-time))
 3. In the **Project Name** box at the very top, type `mission7`.
+4. Open the **[🗺️ Field Map](../images/field-map.jpg)** (press and hold, then **Open in New Tab**). It shows where everything is. ([How to read it](README.md#-the-field-map))
 
 ## Step 1: Plan on paper first ✏️
 
-Use the [field map](../images/field-map.jpg).
+Use the **[🗺️ Field Map](../images/field-map.jpg)**.
 
 - The **red note** starts at the top, in slot 3: about **x = 31, y = 48**.
 - The **Red target** (the red box with the grey outline) is at about **x = 20, y = -4.5**.

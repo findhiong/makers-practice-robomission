@@ -28,6 +28,24 @@ Every mission card tells you exactly what to do, step by step:
 - 👀 **Guess first.** Before you press ▶️, say what you think will happen.
 - ⌨️ **Take turns.** One person taps, one person reads the card and the map. Swap every 10 minutes.
 - 📓 **Write it down.** What did you change? What happened?
-- 🗺️ **Use the map.** The [field map](../images/field-map.jpg) shows where everything is, in centimetres.
+- 🗺️ **Use the Field Map.** Keep it open in another tab while you plan.
+
+## 🗺️ The Field Map
+
+**[Open the Field Map](../images/field-map.jpg)** (press and hold, then **Open in New Tab**). Every mission uses it.
+
+![Field Map](../images/field-map.jpg)
+
+**How to read it:**
+
+- 📍 **Pink dots** show where things are. The label next to each dot tells you what it is.
+- 🟨 **Yellow labels** are the **targets**: the coloured boxes with a grey outline where the notes go.
+- 🟦 **Blue labels** at the top show where each **note starts**.
+- 📏 **The grid lines are 10 cm apart.** The numbers along the bottom go **left and right** (x). The numbers down the right side go **up and down** (y).
+- ➕ **The middle of the mat is 0.** Right of the middle is plus, left is minus. Above the middle is plus, below is minus.
+
+> 🧮 **Example:** START is at x = 98 and the Yellow target is at x = -12. To get from one to the other, the robot travels 98 + 12 = **110 cm**.
+
+> 💡 On an iPad, pinch to zoom in on the map.
 
 When you're ready to score a whole run, use the [scoring sheet](scoring-sheet.md).
