@@ -20,7 +20,7 @@
 
 ## Step 1: Plan it on the map 🗺️
 
-Open the [field map](../images/field-map.jpg). Find **START** and **Y** (the yellow target).
+Open the [field map](../images/field-map.jpg). Find **START** and **Yellow target**.
 
 - The start is at about **x = 98 cm**.
 - The yellow square is at about **x = -12 cm**.
@@ -68,7 +68,7 @@ In the **Python** tab, find your two `move_steering_for_degrees` lines. The firs
 
 ## ✅ You've finished when...
 
-The robot stops on the yellow square 3 times in a row. Then, using **only the Python tab**, change the numbers so it stops on the **black** square (**K** on the map) instead.
+The robot stops on the yellow square 3 times in a row. Then, using **only the Python tab**, change the numbers so it stops on the **black target** instead (find **Black target** on the map).
 
 ## 📓 Notebook
 

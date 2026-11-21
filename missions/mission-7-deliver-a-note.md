@@ -19,7 +19,7 @@
 Use the [field map](../images/field-map.jpg).
 
 - The **red note** starts at the top, in slot 3: about **x = 31, y = 48**.
-- The **red target** (R) is at about **x = 20, y = -4.5**.
+- The **Red target** is at about **x = 20, y = -4.5**.
 
 Draw the robot's route on paper. For each step, write:
 
