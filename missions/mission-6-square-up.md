@@ -33,7 +33,7 @@ Find the `square_up` block in the code. Point to the line that stops the left wh
 
 ## Step 3: Run it ▶️
 
-Tap the **Simulator** tab and press ▶️. Then open the **message box** at the bottom (tap the little arrow).
+Tap the **Simulator** tab and press ▶️. Then look at the **bottom of the Simulator screen**, where messages appear.
 
 - **Crooked:** how far off the robot was.
 - **Square:** how far off it is after squaring up. Close to **0** is perfect!

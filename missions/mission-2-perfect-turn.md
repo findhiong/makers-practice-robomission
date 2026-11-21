@@ -27,11 +27,21 @@ Start with a `sleep for 1 seconds` block. Then add:
 2. From **Text**: a `print` block.
 3. From **Sensors**: put a `gyro angle on port 5` block inside the print block.
 
-Run it. Then open the **message box** at the bottom of the Simulator (tap the little arrow). The gyro's number is there.
+Run it in the **Simulator** tab. When the robot stops, look at the **bottom of the Simulator screen**. The gyro's number appears there.
+
+![Where to find the gyro number](../images/guide/5-gyro-number.png)
+
+> 💡 The number only shows in the **Simulator** tab, never in the Blocks tab.
 
 ## Step 2: Make it exactly 90 🎯 (in Blocks)
 
-Did the robot turn more or less than a quarter turn? In the **Blocks** tab, tap the number of **rotations** in your move steering block and change it. Try again until the gyro says **90** (or **-90**).
+Did the robot turn more or less than a quarter turn? You'll go back and forth between two tabs:
+
+1. Tap the **Blocks** tab. In your move steering block, change the number of **rotations** (try a smaller number, like `0.8`).
+2. Tap the **Simulator** tab. Tap the **reset** button (curly arrow) to put the robot back.
+3. Tap ▶️.
+4. Read the gyro number at the **bottom of the screen** and write it in the table.
+5. Repeat until the gyro says about **90** (or **-90**).
 
 | Rotations | Gyro said |
 |---|---|
