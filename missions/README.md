@@ -6,7 +6,7 @@ Do the missions in order. Each one teaches **one new thing**.
 |---|---|---|
 | [1. The Clean Start](mission-1-clean-start.md) | Drive 30 cm perfectly straight | 🧱 Blocks |
 | [2. The Perfect Turn](mission-2-perfect-turn.md) | Turn exactly a quarter turn | 🧱 Blocks |
-| [3. Drive to Yellow](mission-3-drive-to-yellow.md) | Stop on the yellow square | 🧱 Blocks |
+| [3. Drive to Yellow](mission-3-drive-to-yellow.md) | Stop on the yellow box (with the grey outline) | 🧱 Blocks |
 | [4. Stop at the Black Line](mission-4-stop-at-black.md) | Use a sensor to know when to stop | 🧱 Blocks |
 | [5. Python Takes Over](mission-5-python-takes-over.md) | Drive to yellow using real Python | 🐍 Python |
 | [6. Square Up on a Line](mission-6-square-up.md) | Use a line to make the robot perfectly straight | 🐍 Python |

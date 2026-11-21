@@ -53,7 +53,7 @@ Tap the **Simulator** tab and press ▶️. Then look at the **bottom of the Sim
 
 ## ✅ You've finished when...
 
-Using **only the Python tab**, you can add a square-up to your **Mission 5** code: square up on the line first, **then** drive to the yellow square.
+Using **only the Python tab**, you can add a square-up to your **Mission 5** code: square up on the line first, **then** drive to the yellow box (with the grey outline).
 
 ## 📓 Notebook
 

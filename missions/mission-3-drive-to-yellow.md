@@ -1,6 +1,6 @@
 # Mission 3: Drive to Yellow 🟨
 
-**Your goal:** Drive from the start and stop on the yellow square on the music staves.
+**Your goal:** Drive from the start and stop on the **yellow box with the grey outline**. It sits on the music staves (the wavy purple lines with the big treble clef, across the middle of the mat).
 
 **Why it matters:** This is your first real route: a turn plus a drive. You'll plan it with the map, like a real team.
 
@@ -23,7 +23,7 @@
 Open the [field map](../images/field-map.jpg). Find **START** and **Yellow target**.
 
 - The start is at about **x = 98 cm**.
-- The yellow square is at about **x = -12 cm**.
+- The yellow box (with the grey outline) is at about **x = -12 cm**.
 
 So the robot needs to travel 98 + 12 = **110 cm** to the **left**.
 
@@ -68,7 +68,7 @@ In the **Python** tab, find your two `move_steering_for_degrees` lines. The firs
 
 ## ✅ You've finished when...
 
-The robot stops on the yellow square 3 times in a row. Then, using **only the Python tab**, change the numbers so it stops on the **black target** instead (find **Black target** on the map).
+The robot stops on the yellow box (with the grey outline) 3 times in a row. Then, using **only the Python tab**, change the numbers so it stops on the **black box with the grey outline** instead (find **Black target** on the map).
 
 ## 📓 Notebook
 

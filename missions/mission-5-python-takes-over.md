@@ -1,6 +1,6 @@
 # Mission 5: Python Takes Over 🐍
 
-**Your goal:** Drive to the yellow square again, but this time with real Python that steers itself using the gyro.
+**Your goal:** Drive to the yellow box (with the grey outline) again, but this time with real Python that steers itself using the gyro.
 
 **Why it matters:** In Mission 3 the robot may have drifted on the long drive. Good teams use the gyro to keep the robot straight the whole way. You can't do that easily with blocks, but you can in Python.
 

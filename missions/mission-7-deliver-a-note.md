@@ -1,6 +1,6 @@
 # Mission 7: Deliver a Note 🎵
 
-**Your goal:** Collect the **red note** and bring it to the red square on the music staves. It must be upright and completely inside the grey border.
+**Your goal:** Collect the **red note** and bring it to the **red box with the grey outline** on the music staves (the wavy purple lines with the big treble clef, across the middle of the mat). It must be upright and completely inside the grey outline.
 
 **Points:** 20 ⭐
 
@@ -19,7 +19,7 @@
 Use the [field map](../images/field-map.jpg).
 
 - The **red note** starts at the top, in slot 3: about **x = 31, y = 48**.
-- The **Red target** is at about **x = 20, y = -4.5**.
+- The **Red target** (the red box with the grey outline) is at about **x = 20, y = -4.5**.
 
 Draw the robot's route on paper. For each step, write:
 
