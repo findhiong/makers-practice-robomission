@@ -66,7 +66,7 @@ print("Front sensor sees:", front_sensor.color())
 
 ## ✅ You've finished when...
 
-The red note scores 20 points: upright and completely inside its grey border.
+The red note scores 20 points: upright and completely inside its grey outline.
 
 ## 📓 Notebook
 

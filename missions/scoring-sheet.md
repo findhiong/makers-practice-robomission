@@ -9,7 +9,7 @@
 | Microphone **completely in** green target **and** upright | 20 | 20 | | |
 | Microphone only partly in, or not upright | 10 | | | |
 | Instrument **completely in** backstage (pink) area | 15 | 45 | | |
-| Note **completely in** its colour's target (grey border counts) **and** upright | 20 | 120 | | |
+| Note **completely in** its colour's box (touching the grey outline is fine) **and** upright | 20 | 120 | | |
 | Note only partly in, or not upright | 10 | | | |
 | Clef not moved or damaged | 10 | 10 | | |
 | Speaker not moved or damaged | 10 | 20 | | |
